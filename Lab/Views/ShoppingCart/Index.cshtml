@@ -1,0 +1,81 @@
+﻿@using Microsoft.Extensions.Options
+@inject IOptions<Lab.Domain.StripeSettings> Stripe
+@model Lab.Domain.DTO.AddShoppingCartDto
+
+<h1>Shopping cart</h1>
+
+@if (Model.MovieInShoppingCart.Count == 0)
+{
+    <h1>No movies in the shopping cart</h1>
+}
+else{
+   <!-- <div class="row">
+        <div class="form-group">
+            <a href="/ShoppingCart/ReserveNow" class="btn btn-warning">
+                Reserve now
+            </a>
+        </div>   
+    </div>-->
+     <div class="row m-4">
+        @if (Model.TotalPrice != 0)
+        {
+            <form asp-controller="ShoppingCart" asp-action="PayOrder" method="post">
+                <article>
+                    <script src="https://checkout.stripe.com/checkout.js"
+                            class="stripe-button"
+                            data-key="@Stripe.Value.PublishableKey"
+                            data-locale="auto"
+                            data-description="Lab Application Payment"
+                            data-amount="@(Model.TotalPrice * 100)"
+                            data-label="Pay $@Model.TotalPrice">
+                    </script>
+                </article>
+            </form>
+        }
+    </div>
+<table class="table">
+    <thead>
+        <tr>
+            <th class="col-md-1">#</th>
+            <th class="col">Movie title</th>
+            <th class="col">Quantity</th>
+            <th class="col">Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            var i=1;
+            foreach(var movie in Model.MovieInShoppingCart)
+            {
+               <tr>
+                    <td>
+                        @(i++)
+                    </td>
+                    <td>
+                        @movie.Movie.MovieTitle
+                    </td>
+                    <td>
+                        @movie.Quantity
+                    </td>
+                    <td>
+                        @movie.Movie.MoviePrice
+                    </td>
+                    <td>
+                        <a class="btn btn-danger" href="/ShoppingCart/DeleteFromShoppingCart/@movie.Movie.Id">Delete</a>
+                    </td> 
+               </tr> 
+            }
+        }
+    </tbody>
+    <tfoot>
+        <tr>
+            <th>Total:</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th>@Model.TotalPrice</th>
+
+        </tr>
+    </tfoot>
+</table>
+}

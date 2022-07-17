@@ -1,0 +1,13 @@
+C:\Users\huma_\source\repos\Lab\Lab.Repository\bin\Debug\netcoreapp3.1\Lab.Repository.deps.json
+C:\Users\huma_\source\repos\Lab\Lab.Repository\bin\Debug\netcoreapp3.1\Lab.Repository.dll
+C:\Users\huma_\source\repos\Lab\Lab.Repository\bin\Debug\netcoreapp3.1\Lab.Repository.pdb
+C:\Users\huma_\source\repos\Lab\Lab.Repository\bin\Debug\netcoreapp3.1\Lab.Domain.dll
+C:\Users\huma_\source\repos\Lab\Lab.Repository\bin\Debug\netcoreapp3.1\Lab.Domain.pdb
+C:\Users\huma_\source\repos\Lab\Lab.Repository\obj\Debug\netcoreapp3.1\Lab.Repository.csproj.AssemblyReference.cache
+C:\Users\huma_\source\repos\Lab\Lab.Repository\obj\Debug\netcoreapp3.1\Lab.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huma_\source\repos\Lab\Lab.Repository\obj\Debug\netcoreapp3.1\Lab.Repository.AssemblyInfoInputs.cache
+C:\Users\huma_\source\repos\Lab\Lab.Repository\obj\Debug\netcoreapp3.1\Lab.Repository.AssemblyInfo.cs
+C:\Users\huma_\source\repos\Lab\Lab.Repository\obj\Debug\netcoreapp3.1\Lab.Repository.csproj.CoreCompileInputs.cache
+C:\Users\huma_\source\repos\Lab\Lab.Repository\obj\Debug\netcoreapp3.1\Lab.Repository.csproj.CopyComplete
+C:\Users\huma_\source\repos\Lab\Lab.Repository\obj\Debug\netcoreapp3.1\Lab.Repository.dll
+C:\Users\huma_\source\repos\Lab\Lab.Repository\obj\Debug\netcoreapp3.1\Lab.Repository.pdb

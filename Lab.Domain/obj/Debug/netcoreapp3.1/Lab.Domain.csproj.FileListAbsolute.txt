@@ -1,0 +1,10 @@
+C:\Users\huma_\source\repos\Lab\Lab.Domain\bin\Debug\netcoreapp3.1\Lab.Domain.deps.json
+C:\Users\huma_\source\repos\Lab\Lab.Domain\bin\Debug\netcoreapp3.1\Lab.Domain.dll
+C:\Users\huma_\source\repos\Lab\Lab.Domain\bin\Debug\netcoreapp3.1\Lab.Domain.pdb
+C:\Users\huma_\source\repos\Lab\Lab.Domain\obj\Debug\netcoreapp3.1\Lab.Domain.csproj.AssemblyReference.cache
+C:\Users\huma_\source\repos\Lab\Lab.Domain\obj\Debug\netcoreapp3.1\Lab.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huma_\source\repos\Lab\Lab.Domain\obj\Debug\netcoreapp3.1\Lab.Domain.AssemblyInfoInputs.cache
+C:\Users\huma_\source\repos\Lab\Lab.Domain\obj\Debug\netcoreapp3.1\Lab.Domain.AssemblyInfo.cs
+C:\Users\huma_\source\repos\Lab\Lab.Domain\obj\Debug\netcoreapp3.1\Lab.Domain.csproj.CoreCompileInputs.cache
+C:\Users\huma_\source\repos\Lab\Lab.Domain\obj\Debug\netcoreapp3.1\Lab.Domain.dll
+C:\Users\huma_\source\repos\Lab\Lab.Domain\obj\Debug\netcoreapp3.1\Lab.Domain.pdb
